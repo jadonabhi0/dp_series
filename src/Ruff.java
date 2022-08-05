@@ -2,11 +2,18 @@ import java.util.*;
 
 public class Ruff {
 
-    public static void main(String[] args) {
+    public void f1(){
+        System.out.println("f1");
+    }
 
-        System.out.println("Abhishek".contains("bhi"));
-        List<Integer> list = new ArrayList<>();
-        Collections.sort(list);
+    public static void f2(){
+
+        Ruff ruff = new Ruff();
+        ruff.f1();
+
+    }
+
+    public static void main(String[] args) {
 
     }
 
